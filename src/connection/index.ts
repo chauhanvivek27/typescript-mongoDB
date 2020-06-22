@@ -12,7 +12,7 @@ const options = {
 let mongodb: any;
 export const connect = async () => {
   // add async
-  console.log('connecting to mongo');
+  console.log('connecting to mongo DB');
   try {
     let client = await MongoClient.connect(addressDb, options);
     // get the collection
